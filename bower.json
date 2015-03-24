@@ -1,0 +1,20 @@
+{
+  "name": "upgrade-object",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ileri/upgrade-object",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+  ],
+  "main": "upgrade-object.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

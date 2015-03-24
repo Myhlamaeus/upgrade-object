@@ -1,0 +1,34 @@
+{
+  "name": "upgrade-object",
+  "description": "Upgrade an object with Node.js-style async functions to use promises",
+  "version": "0.0.0",
+  "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ileri/upgrade-object/issues"
+  },
+  "dependencies": {
+    "upgrade-function": "^0.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-sourcemaps": "^1.5.1"
+  },
+  "homepage": "https://github.com/ileri/upgrade-object",
+  "keywords": [
+    "async",
+    "callback",
+    "es6",
+    "promise"
+  ],
+  "license": "MIT",
+  "main": "dist/upgrade-object.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/upgrade-object.git"
+  },
+  "scripts": {
+    "prepublish": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
