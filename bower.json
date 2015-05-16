@@ -1,20 +1,21 @@
 {
   "name": "upgrade-object",
+  "description": "Upgrade an object with Node.js-style async functions to use promises",
   "version": "0.1.0",
-  "homepage": "https://github.com/ileri/upgrade-object",
   "authors": [
-    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+    "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
   ],
-  "main": "upgrade-object.js",
-  "moduleType": [
-    "es6"
-  ],
-  "license": "MIT",
+  "homepage": "https://github.com/ileri/upgrade-object",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
+  ],
+  "license": "MIT",
+  "main": "upgrade-object.js",
+  "moduleType": [
+    "es6"
   ]
 }
